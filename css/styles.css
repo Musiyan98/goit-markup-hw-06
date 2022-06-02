@@ -46,6 +46,8 @@ ul {
    padding: 0 15px;
 }
 
+                                       /* *HEADER */
+
 .header {
    border-bottom: 1px solid #ECECEC;
 }
@@ -156,6 +158,8 @@ ul {
    margin-right: 10px;
    fill: currentColor;
 }
+
+                                 /* *HERO SECTION */
 
 .heroic-page {
    background-color: var(--dark-background);
@@ -272,6 +276,9 @@ ul {
    cursor: pointer;
 }
 
+
+                                    /* *ABOUT COMPANY */
+
 .section {
    padding-top: 94px;
    padding-bottom: 94px;
@@ -325,6 +332,10 @@ ul {
    
 }
 
+
+                                 /* *PROJECT */
+
+
 .project-section-title,
 .team-section-title,
 .our-client-section-title {
@@ -374,6 +385,9 @@ ul {
 .team-section .list-item:last-child {
    margin-right: 0;
 }
+
+                        /* *TEAM */
+
 .team-section {
    background-color: var(--filter-button-color);
 }
@@ -442,6 +456,8 @@ margin-bottom: 16px;
    margin-right: 10px;
 }
 
+                              /* * OUR CLIENT */
+
 .our-client-list {
    display: flex;
    justify-content: center;
@@ -481,7 +497,7 @@ margin-bottom: 16px;
 }
 
 
-
+                                                /* *FOOTER */
 
 
 .footer-section {
@@ -490,15 +506,18 @@ margin-bottom: 16px;
    padding-bottom: 60px;
 }
 
-.footer-list{
+.footer-container {
 display: flex;
 align-items:baseline
 }
 
-.footer-list .list-item:not(:last-child) {
+.footer-box:not(:last-child) {
 margin-right: 70px;
 }
 
+.footer-box:last-child {
+   margin-left: auto;
+}
 
 .logo-studio-footer {
    color: var(--white-theme);
@@ -570,6 +589,80 @@ margin-right: 70px;
    margin-right: 10px;
 }
 
+                           /* *footer-subscribe-form */
+
+.footer-subscribe-form {
+   display: flex;
+   width: 570px;
+   margin-left: auto;
+   align-items: flex-end;
+}
+
+.footer-form-label {
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-form-text {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+   color: var(--white-theme);
+   margin-bottom: 20px;
+}
+
+.footer-form-input {
+   width: 358px;
+   height: 50px;
+   background-color: transparent;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   border-radius: 4px;
+   padding: 15px 16px;
+   color: var(--white-theme);
+}
+
+.footer-form-input:focus-visible {
+   outline-offset: -2px;
+   outline-style: solid;
+   outline-width: 1px;
+   outline-color: rgba(255, 255, 255, 0.623);
+}
+
+
+.footer-subscribe-btn {
+   margin-left: 12px;
+   width: 200px;
+   height: 50px;
+
+   background: var(--hiperlink-and-active-theme);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   letter-spacing: 0.06em;
+
+   color: var(--white-theme);
+}
+
+.footer-subscribe-icon {
+   margin-left: 10px;
+   fill: currentColor;
+}
+
+
+/* *PORTFOLIO */
+
+
 
 
 .filter-buttons {
@@ -616,6 +709,8 @@ margin-right: 70px;
 .btn {
    cursor: pointer;
 }
+
+                                 /* *portfolio-project */
 
 .portfolio-project {
    display: flex;
